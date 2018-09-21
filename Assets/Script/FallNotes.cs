@@ -10,7 +10,6 @@ public class FallNotes : MonoBehaviour {
     {
         Vector2 direction = new Vector2(0, -1).normalized;
         GetComponent<Rigidbody2D>().velocity = direction * Speed;
-
     }
 	
 	// Update is called once per frame
